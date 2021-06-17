@@ -17,15 +17,3 @@
 
 
 ![рандомный скрин](./node.tiff "рандомный скрин")
-
-```flow
-st=>start: ввод данных х
-op=>operation:  х * 2
-cond=>condition:  x>10?
-e=>end: вывод информации
-st->op->cond
-cond(yes)->e
-cond(no)->op
-
-
-```
